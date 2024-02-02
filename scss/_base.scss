@@ -1,5 +1,13 @@
 body {
     margin: 0;
-    overflow-x: hidden;
     height: 300vh;
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    
+    // jest czescia header wiec inherit bierze od rodzica kolor
+    color: inherit;
 }
